@@ -30,11 +30,11 @@ jobs:
      run: terraform init
 
 # #terraform fmt
-#    - name: Terraform prettify
-#      run: terraform fmt
+   - name: Terraform prettify
+     run: terraform fmt
 
 # #terraform validate
-#    - name: Terraform validate
+#   - name: Terraform validate
 #      run: terraform validate
 
 #    - uses: terraform-linters/setup-tflint@v3
